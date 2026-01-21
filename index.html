@@ -18,20 +18,27 @@
         <label for="length"> Password Length: </label>
         <input type="number" id="length" value="10" min="6" max="20" />
       </div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <div>
+        <label for="lowercase"> Include Lowercase</label>
+        <input type="checkbox" id="lowercase" checked />
+      </div>
+      <div>
+        <label for="uppercase"> Include Uppercase</label>
+        <input type="checkbox" id="uppercase" checked />
+      </div>
+      <div>
+        <label for="numbers"> Include Numbers</label>
+        <input type="checkbox" id="numbers" checked />
+      </div>
+      <div>
+        <label for="symbols"> Include symbols</label>
+        <input type="checkbox" id="symbols" checked />
+      </div>
 
-      <!-- Add a div, and inside add 1 label for uppercase, and a checkbox  -->
-
-      <!-- Add a div, and inside add 1 label for numbers, and a checkbox  -->
-
-      <!-- Add a div, and inside add 1 label for symbols, and a checkbox  -->
-
-      <button id="generate">Generate Password</button>
+      <button id="generateBtn">Generate Password</button>
       <div>
         <label for="length"> Password Length: </label>
-        <input type="text" id="password" name="password" readonly />
+        <input type="text" id="passwordOutput" name="password" readonly />
       </div>
     </div>
 
